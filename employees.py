@@ -23,7 +23,7 @@ def load_employees(nrows=500):
     pandas.DataFrame
         A DataFrame containing the employee data.
     """
-    return pd.read_csv('./data/Employees.csv', nrows=nrows)
+    return pd.read_csv('Employees.csv', nrows=nrows)
 
 
 def animate_plot(df, x_col, y_col, bar_color):
