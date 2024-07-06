@@ -5,7 +5,6 @@ import time
 import seaborn as sns
 import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap
-import os
 
 ### FUNCTION DEFINITIONS ###
 
