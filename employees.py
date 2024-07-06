@@ -5,6 +5,7 @@ import time
 import seaborn as sns
 import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap
+import os
 
 ### FUNCTION DEFINITIONS ###
 
@@ -23,7 +24,8 @@ def load_employees(nrows=500):
     pandas.DataFrame
         A DataFrame containing the employee data.
     """
-    return pd.read_csv('./Employees.csv', nrows=nrows)
+    csv_path = os.path.join(os.getcwd(), 'Employees.csv')
+    return pd.read_csv(csv_path, nrows=nrows)
 
 
 def animate_plot(df, x_col, y_col, bar_color):
