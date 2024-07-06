@@ -185,7 +185,7 @@ def simple_lineplot(df):
 
 
 # Set up the logo
-st.logo("/home/ucix/Documentos/dev/modulo5/aplica/logo.jpeg", icon_image="/home/ucix/Documentos/dev/modulo5/aplica/logo.jpeg")
+st.logo("./data/logo.jpeg", icon_image="./data/logo.jpeg")
 # Set the page title and icon
 st.set_page_config(page_title="Employee analysis", page_icon="📈")
 # Set the main title of the app
